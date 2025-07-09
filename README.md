@@ -1,2 +1,2 @@
 # Chess
-It's Chess in Java
+It's Chess
