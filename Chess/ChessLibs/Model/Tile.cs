@@ -10,8 +10,9 @@ namespace ChessLibs
     {
         #region FIELD
         private Piece currentPiece;
-        private Char column;
+        private char column;
         private int row;
+        private bool color;
         #endregion
 
         #region CONSTRUCTOR
@@ -20,30 +21,34 @@ namespace ChessLibs
         {
             this.Column = 'i';
             this.Row = 0;
+            this.CurrentPiece = new Piece();
         }
         //OBJECT
-        public Tile(Char column,int row)
+        public Tile(int row, char column)
         {
             this.Column = column;
             this.Row = row;
+            this.CurrentPiece = new Piece();
+            if (((this.Column - 65) % 2) == (this.Row % 2))
+            {
+                this.Color = false; //Black
+            }
+            else
+            {
+                this.Color = true; //White
+            }
         }
         #endregion
 
         #region PROPERTIES
         public Piece CurrentPiece { get => currentPiece; set => currentPiece = value; }
-        public Char Column { get => column; set => column = value; }
+        public char Column { get => column; set => column = value; }
         public int Row { get => row; set => row = value; }
+        public bool Color { get => color; set => color = value; }
         #endregion
 
         #region FUNCTION
-        public String getColor()
-        {
-            if((this.Row%2) ==((int)this.Column % 2))
-            {
-                return "black";
-            }
-            else return "white";
-        }
+
         #endregion
     }
 }

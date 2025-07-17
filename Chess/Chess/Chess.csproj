@@ -49,5 +49,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="ChessLibs.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ChessLibs\ChessLibs.csproj">
+      <Project>{B4EE407A-B0DE-4F9E-9CFB-110F29AAAD37}</Project>
+      <Name>ChessLibs</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

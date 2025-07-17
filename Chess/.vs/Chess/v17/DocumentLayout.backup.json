@@ -3,7 +3,43 @@
   "WorkspaceRootPath": "C:\\Users\\joshu\\Downloads\\Chess\\Chess\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C51AC71-9C62-4495-8634-71438F5A7A67}|Chess\\Chess.csproj|c:\\users\\joshu\\downloads\\chess\\chess\\chess\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4EE407A-B0DE-4F9E-9CFB-110F29AAAD37}|ChessLibs\\ChessLibs.csproj|c:\\users\\joshu\\downloads\\chess\\chess\\chesslibs\\model\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4EE407A-B0DE-4F9E-9CFB-110F29AAAD37}|ChessLibs\\ChessLibs.csproj|solutionrelative:chesslibs\\model\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4EE407A-B0DE-4F9E-9CFB-110F29AAAD37}|ChessLibs\\ChessLibs.csproj|c:\\users\\joshu\\downloads\\chess\\chess\\chesslibs\\model\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4EE407A-B0DE-4F9E-9CFB-110F29AAAD37}|ChessLibs\\ChessLibs.csproj|solutionrelative:chesslibs\\model\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4EE407A-B0DE-4F9E-9CFB-110F29AAAD37}|ChessLibs\\ChessLibs.csproj|c:\\users\\joshu\\downloads\\chess\\chess\\chesslibs\\model\\pieces\\queen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4EE407A-B0DE-4F9E-9CFB-110F29AAAD37}|ChessLibs\\ChessLibs.csproj|solutionrelative:chesslibs\\model\\pieces\\queen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4EE407A-B0DE-4F9E-9CFB-110F29AAAD37}|ChessLibs\\ChessLibs.csproj|c:\\users\\joshu\\downloads\\chess\\chess\\chesslibs\\model\\pieces\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4EE407A-B0DE-4F9E-9CFB-110F29AAAD37}|ChessLibs\\ChessLibs.csproj|solutionrelative:chesslibs\\model\\pieces\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4EE407A-B0DE-4F9E-9CFB-110F29AAAD37}|ChessLibs\\ChessLibs.csproj|c:\\users\\joshu\\downloads\\chess\\chess\\chesslibs\\model\\pieces\\rook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4EE407A-B0DE-4F9E-9CFB-110F29AAAD37}|ChessLibs\\ChessLibs.csproj|solutionrelative:chesslibs\\model\\pieces\\rook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4EE407A-B0DE-4F9E-9CFB-110F29AAAD37}|ChessLibs\\ChessLibs.csproj|c:\\users\\joshu\\downloads\\chess\\chess\\chesslibs\\model\\pieces\\pawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4EE407A-B0DE-4F9E-9CFB-110F29AAAD37}|ChessLibs\\ChessLibs.csproj|solutionrelative:chesslibs\\model\\pieces\\pawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4EE407A-B0DE-4F9E-9CFB-110F29AAAD37}|ChessLibs\\ChessLibs.csproj|c:\\users\\joshu\\downloads\\chess\\chess\\chesslibs\\model\\pieces\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4EE407A-B0DE-4F9E-9CFB-110F29AAAD37}|ChessLibs\\ChessLibs.csproj|solutionrelative:chesslibs\\model\\pieces\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4EE407A-B0DE-4F9E-9CFB-110F29AAAD37}|ChessLibs\\ChessLibs.csproj|c:\\users\\joshu\\downloads\\chess\\chess\\chesslibs\\model\\pieces\\bishop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4EE407A-B0DE-4F9E-9CFB-110F29AAAD37}|ChessLibs\\ChessLibs.csproj|solutionrelative:chesslibs\\model\\pieces\\bishop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4EE407A-B0DE-4F9E-9CFB-110F29AAAD37}|ChessLibs\\ChessLibs.csproj|c:\\users\\joshu\\downloads\\chess\\chess\\chesslibs\\model\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4EE407A-B0DE-4F9E-9CFB-110F29AAAD37}|ChessLibs\\ChessLibs.csproj|solutionrelative:chesslibs\\model\\piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C51AC71-9C62-4495-8634-71438F5A7A67}|Chess\\Chess.csproj|C:\\Users\\joshu\\Downloads\\Chess\\Chess\\chess\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C51AC71-9C62-4495-8634-71438F5A7A67}|Chess\\Chess.csproj|solutionrelative:chess\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,17 +50,134 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "King.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\Downloads\\Chess\\Chess\\ChessLibs\\Model\\Pieces\\King.cs",
+              "RelativeDocumentMoniker": "ChessLibs\\Model\\Pieces\\King.cs",
+              "ToolTip": "C:\\Users\\joshu\\Downloads\\Chess\\Chess\\ChessLibs\\Model\\Pieces\\King.cs",
+              "RelativeToolTip": "ChessLibs\\Model\\Pieces\\King.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAwAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T04:39:46.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Queen.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\Downloads\\Chess\\Chess\\ChessLibs\\Model\\Pieces\\Queen.cs",
+              "RelativeDocumentMoniker": "ChessLibs\\Model\\Pieces\\Queen.cs",
+              "ToolTip": "C:\\Users\\joshu\\Downloads\\Chess\\Chess\\ChessLibs\\Model\\Pieces\\Queen.cs",
+              "RelativeToolTip": "ChessLibs\\Model\\Pieces\\Queen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T04:39:38.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Bishop.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\Downloads\\Chess\\Chess\\ChessLibs\\Model\\Pieces\\Bishop.cs",
+              "RelativeDocumentMoniker": "ChessLibs\\Model\\Pieces\\Bishop.cs",
+              "ToolTip": "C:\\Users\\joshu\\Downloads\\Chess\\Chess\\ChessLibs\\Model\\Pieces\\Bishop.cs",
+              "RelativeToolTip": "ChessLibs\\Model\\Pieces\\Bishop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T04:39:16.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Knight.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\Downloads\\Chess\\Chess\\ChessLibs\\Model\\Pieces\\Knight.cs",
+              "RelativeDocumentMoniker": "ChessLibs\\Model\\Pieces\\Knight.cs",
+              "ToolTip": "C:\\Users\\joshu\\Downloads\\Chess\\Chess\\ChessLibs\\Model\\Pieces\\Knight.cs",
+              "RelativeToolTip": "ChessLibs\\Model\\Pieces\\Knight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwAsAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T04:38:43.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Rook.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\Downloads\\Chess\\Chess\\ChessLibs\\Model\\Pieces\\Rook.cs",
+              "RelativeDocumentMoniker": "ChessLibs\\Model\\Pieces\\Rook.cs",
+              "ToolTip": "C:\\Users\\joshu\\Downloads\\Chess\\Chess\\ChessLibs\\Model\\Pieces\\Rook.cs",
+              "RelativeToolTip": "ChessLibs\\Model\\Pieces\\Rook.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T04:36:40.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pawn.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\Downloads\\Chess\\Chess\\ChessLibs\\Model\\Pieces\\Pawn.cs",
+              "RelativeDocumentMoniker": "ChessLibs\\Model\\Pieces\\Pawn.cs",
+              "ToolTip": "C:\\Users\\joshu\\Downloads\\Chess\\Chess\\ChessLibs\\Model\\Pieces\\Pawn.cs",
+              "RelativeToolTip": "ChessLibs\\Model\\Pieces\\Pawn.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T04:28:49.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Board.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\Downloads\\Chess\\Chess\\ChessLibs\\Model\\Board.cs",
+              "RelativeDocumentMoniker": "ChessLibs\\Model\\Board.cs",
+              "ToolTip": "C:\\Users\\joshu\\Downloads\\Chess\\Chess\\ChessLibs\\Model\\Board.cs",
+              "RelativeToolTip": "ChessLibs\\Model\\Board.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAEwGcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T04:39:53.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Tile.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\Downloads\\Chess\\Chess\\ChessLibs\\Model\\Tile.cs",
+              "RelativeDocumentMoniker": "ChessLibs\\Model\\Tile.cs",
+              "ToolTip": "C:\\Users\\joshu\\Downloads\\Chess\\Chess\\ChessLibs\\Model\\Tile.cs*",
+              "RelativeToolTip": "ChessLibs\\Model\\Tile.cs*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T04:41:12.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Piece.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\Downloads\\Chess\\Chess\\ChessLibs\\Model\\Piece.cs",
+              "RelativeDocumentMoniker": "ChessLibs\\Model\\Piece.cs",
+              "ToolTip": "C:\\Users\\joshu\\Downloads\\Chess\\Chess\\ChessLibs\\Model\\Piece.cs",
+              "RelativeToolTip": "ChessLibs\\Model\\Piece.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwBcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T04:39:17.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\joshu\\Downloads\\Chess\\Chess\\Chess\\Program.cs",
               "RelativeDocumentMoniker": "Chess\\Program.cs",
               "ToolTip": "C:\\Users\\joshu\\Downloads\\Chess\\Chess\\Chess\\Program.cs",
               "RelativeToolTip": "Chess\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-09T04:38:34.064Z",
               "EditorCaption": ""
