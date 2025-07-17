@@ -78,6 +78,26 @@ namespace ChessLibs
             tiles[7, 7].CurrentPiece = new Rook(true, tiles[7, 7].Column, tiles[7, 7].Row);      // Rook ♖
         }
 
+        public int GetColumnIndex(char column)
+        {
+            return ((int)column - 65);
+        }
+
+        public int GetRowIndex(int row)
+        {
+            return row - 1;
+        }
+
+        public char SetColumnFromIndex(int index)
+        {
+            return (char)(index + 65);
+        }
+
+        public int SetRowFromIndex(int index)
+        {
+            return index + 1;
+        }
+
         #endregion
 
 

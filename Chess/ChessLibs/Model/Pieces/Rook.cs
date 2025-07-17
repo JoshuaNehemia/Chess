@@ -9,7 +9,7 @@ namespace ChessLibs.Model.Pieces
     public class Rook : Piece
     {
         #region CONSTRUCTOR
-        public Rook(bool color,char column,int row) : base(color,'R',column,row, "♜")
+        public Rook(bool color,char column,int row) : base(color,'R',column,row)
         {
 
         }

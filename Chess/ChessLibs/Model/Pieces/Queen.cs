@@ -10,7 +10,7 @@ namespace ChessLibs.Model.Pieces
     {
 
         #region CONSTRUCTOR
-        public Queen(bool color, char column, int row) : base(color, 'Q', column, row, "♛")
+        public Queen(bool color, char column, int row) : base(color, 'Q', column, row)
         {
 
         }

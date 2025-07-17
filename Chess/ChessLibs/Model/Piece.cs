@@ -1,7 +1,9 @@
-﻿using System;
+﻿using ChessLibs.Model.Pieces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,7 +16,7 @@ namespace ChessLibs
         private char notation;
         private char column;
         private int row;
-        private string sign;
+        private bool isMoved;
         #endregion
 
         #region CONSTRUCTOR
@@ -24,16 +26,16 @@ namespace ChessLibs
             this.Notation = ' ';
             this.Column = ' ';
             this.Row = -1;
-            this.Sign = " ";
+            this.IsMoved = false;
         }
         //FILLED
-        public Piece(bool color,char notation,char column,int row,string sign)
+        public Piece(bool color,char notation,char column,int row)
         {
             this.Color = color;
             this.Notation = notation;
             this.Column = column;
             this.Row = row;
-            this.Sign = sign;
+            this.IsMoved = false;
         }
         #endregion
 
@@ -42,21 +44,62 @@ namespace ChessLibs
         public char Notation { get => notation; set => notation = value; }
         public char Column { get => column; set => column = value; }
         public int Row { get => row; set => row = value; }
-        public string Sign { get => sign; set => sign = value; }
+        public bool IsMoved { get => isMoved; set => isMoved = value; }
         #endregion
 
         #region FUNCTION
-        public void UpdatePosition(char column,int row)
+        public void UpdatePosition(char column, int row)
         {
             this.Column = column;
             this.Row = row;
         }
 
-        public List<string> GetPossibleMove(Board board)
+        public List<Tile> GetPossibleMove(Tile[,] board)
         {
 
-            return new List<string>();
+            return new List<Tile>();
         }
+
+        public bool IsTileOccupiedByFriendlyPiece(Tile dest)
+        {
+            // Returns true if the destination tile has a piece of the same color.
+            return dest.CurrentPiece.Color == this.Color;
+        }
+
+        public bool IsSuicide(Tile kings_tile,Tile dest, Tile[,] board)
+        {
+            King king = (King)kings_tile.CurrentPiece;
+            return king.IsCheck(board);
+        }
+
+        #region TOOLS
+        public int GetColumnIndex(char column)
+        {
+            return ((int)column - 65);
+        }
+
+        public int GetRowIndex(int row)
+        {
+            return row - 1;
+        }
+
+        public char SetColumnFromIndex(int index)
+        {
+            return (char)(index + 65);
+        }
+
+        public int SetRowFromIndex(int index)
+        {
+            return index + 1;
+        }
+
+        public bool IsOpponent(Piece pic)
+        {
+            return pic.Color != this.Color;
+        }
+
+        #endregion
+
         #endregion
     }
 }

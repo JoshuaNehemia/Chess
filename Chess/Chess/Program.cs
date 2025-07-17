@@ -13,14 +13,7 @@ namespace Chess
         static void Main(string[] args)
         {
             Console.WriteLine("App Starting");
-            DebugBoardInit();
         }
 
-        public static void DebugBoardInit()
-        {
-            Board b = new Board();
-            b.PrintBoard();
-            Console.ReadLine();
-        }
     }
 }

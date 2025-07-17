@@ -9,7 +9,7 @@ namespace ChessLibs.Model.Pieces
     public class Knight : Piece
     {
         #region CONSTRUCTOR
-        public Knight(bool color, char column, int row) : base(color, 'N', column, row, "♞")
+        public Knight(bool color, char column, int row) : base(color, 'N', column, row)
         {
 
         }

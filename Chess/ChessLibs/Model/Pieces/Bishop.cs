@@ -9,7 +9,7 @@ namespace ChessLibs.Model.Pieces
     public class Bishop : Piece
     {
         #region CONSTRUCTOR
-        public Bishop(bool color, char column, int row) : base(color, 'B', column, row, "♝")
+        public Bishop(bool color, char column, int row) : base(color, 'B', column, row)
         {
 
         }
